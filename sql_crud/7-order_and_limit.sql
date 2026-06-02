@@ -1,3 +1,4 @@
-SELECT title, published_year
+SELECT title, stock
 FROM books
-ORDER BY published_year DESC;
+ORDER BY stock DESC
+LIMIT 5;

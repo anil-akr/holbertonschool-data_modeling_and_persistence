@@ -1,4 +1,3 @@
 SELECT title, price
 FROM books
-ORDER BY price DESC
-LIMIT 3;
+ORDER BY price ASC;
