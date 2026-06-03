@@ -4,4 +4,4 @@ LEFT JOIN enrollments
 ON courses.id = enrollments.course_id
 LEFT JOIN students
 ON enrollments.student_id = students.id
-ORDER BY student_name, course_title ASC;
+ORDER BY course_title, student_name ASC;
