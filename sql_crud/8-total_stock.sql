@@ -1,2 +1,2 @@
-SELECT SUM(price)
+SELECT SUM(stock)
 FROM books;
